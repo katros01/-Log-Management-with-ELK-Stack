@@ -1,0 +1,71 @@
+2024-09-15T13:49:13.264+02:00  INFO 15604 --- [ELKStack-Logging] [main] com.gtp.ELKStack.Logging.Application     : Starting Application using Java 22.0.1 with PID 15604 (C:\Users\Amalitech\Desktop\My-Stuff\ELKStack-Logging\target\classes started by Amalitech in C:\Users\Amalitech\Desktop\My-Stuff\ELKStack-Logging)
+2024-09-15T13:49:13.266+02:00  INFO 15604 --- [ELKStack-Logging] [main] com.gtp.ELKStack.Logging.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T13:49:14.132+02:00  INFO 15604 --- [ELKStack-Logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-15T13:49:14.149+02:00  INFO 15604 --- [ELKStack-Logging] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-15T13:49:14.150+02:00  INFO 15604 --- [ELKStack-Logging] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-15T13:49:14.207+02:00  INFO 15604 --- [ELKStack-Logging] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-15T13:49:14.207+02:00  INFO 15604 --- [ELKStack-Logging] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 901 ms
+2024-09-15T13:49:14.582+02:00  INFO 15604 --- [ELKStack-Logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-15T13:49:14.588+02:00  INFO 15604 --- [ELKStack-Logging] [main] com.gtp.ELKStack.Logging.Application     : Started Application in 1.847 seconds (process running for 2.706)
+2024-09-15T13:49:21.397+02:00  INFO 15604 --- [ELKStack-Logging] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-15T13:49:21.397+02:00  INFO 15604 --- [ELKStack-Logging] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-15T13:49:21.397+02:00  INFO 15604 --- [ELKStack-Logging] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-15T13:49:21.428+02:00  INFO 15604 --- [ELKStack-Logging] [http-nio-8080-exec-1] c.g.E.L.Controller.EmployeeController    : GET request received for employee with ID: 1
+2024-09-15T13:49:21.429+02:00  INFO 15604 --- [ELKStack-Logging] [http-nio-8080-exec-1] c.g.E.Logging.Service.EmployeeService    : Fetching employee with ID: 1
+2024-09-15T13:49:54.104+02:00  INFO 15604 --- [ELKStack-Logging] [http-nio-8080-exec-3] c.g.E.L.Controller.EmployeeController    : GET request received for employee with ID: 17
+2024-09-15T13:49:54.105+02:00  INFO 15604 --- [ELKStack-Logging] [http-nio-8080-exec-3] c.g.E.Logging.Service.EmployeeService    : Fetching employee with ID: 17
+2024-09-15T13:49:54.111+02:00 ERROR 15604 --- [ELKStack-Logging] [http-nio-8080-exec-3] c.g.E.L.e.GlobalExceptionHandler         : Error: Employee with ID 17 not found
+2024-09-15T14:27:55.013+02:00  INFO 10752 --- [ELKStack-Logging] [main] com.gtp.ELKStack.Logging.Application     : Starting Application using Java 22.0.1 with PID 10752 (C:\Users\Amalitech\Desktop\My-Stuff\ELKStack-Logging\target\classes started by Amalitech in C:\Users\Amalitech\Desktop\My-Stuff\ELKStack-Logging)
+2024-09-15T14:27:55.016+02:00  INFO 10752 --- [ELKStack-Logging] [main] com.gtp.ELKStack.Logging.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-09-15T14:27:56.562+02:00  INFO 10752 --- [ELKStack-Logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-15T14:27:56.581+02:00  INFO 10752 --- [ELKStack-Logging] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-15T14:27:56.581+02:00  INFO 10752 --- [ELKStack-Logging] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-15T14:27:56.753+02:00  INFO 10752 --- [ELKStack-Logging] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-15T14:27:56.754+02:00  INFO 10752 --- [ELKStack-Logging] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1659 ms
+2024-09-15T14:27:57.276+02:00  INFO 10752 --- [ELKStack-Logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-15T14:27:57.282+02:00  INFO 10752 --- [ELKStack-Logging] [main] com.gtp.ELKStack.Logging.Application     : Started Application in 2.978 seconds (process running for 5.78)
+2024-09-15T14:29:15.978+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-15T14:29:15.979+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-15T14:29:15.980+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-15T14:29:16.021+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-1] c.g.E.L.Controller.EmployeeController    : GET request received for employee with ID: 17
+2024-09-15T14:29:16.023+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-1] c.g.E.Logging.Service.EmployeeService    : Fetching employee with ID: 17
+2024-09-15T14:29:16.026+02:00 ERROR 10752 --- [ELKStack-Logging] [http-nio-8080-exec-1] c.g.E.L.e.GlobalExceptionHandler         : Error: Employee with ID 17 not found
+2024-09-15T14:31:32.894+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-8] c.g.E.L.Controller.EmployeeController    : GET request received for employee with ID: 1
+2024-09-15T14:31:32.909+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-8] c.g.E.Logging.Service.EmployeeService    : Fetching employee with ID: 1
+2024-09-15T14:45:53.405+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-4] c.g.E.L.Controller.EmployeeController    : GET request received for employee with ID: 1
+2024-09-15T14:45:53.436+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-4] c.g.E.Logging.Service.EmployeeService    : Fetching employee with ID: 1
+2024-09-15T14:45:59.343+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-10] c.g.E.L.Controller.EmployeeController    : GET request received for employee with ID: 2
+2024-09-15T14:45:59.343+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-10] c.g.E.Logging.Service.EmployeeService    : Fetching employee with ID: 2
+2024-09-15T15:45:16.472+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-1] c.g.E.L.Controller.EmployeeController    : GET request received for employee with ID: 2
+2024-09-15T15:45:16.487+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-1] c.g.E.Logging.Service.EmployeeService    : Fetching employee with ID: 2
+2024-09-15T15:48:21.573+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-7] c.g.E.L.Controller.EmployeeController    : GET request received for employee with ID: 2
+2024-09-15T15:48:21.573+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-7] c.g.E.Logging.Service.EmployeeService    : Fetching employee with ID: 2
+2024-09-15T15:48:27.895+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-6] c.g.E.L.Controller.EmployeeController    : GET request received for employee with ID: 25
+2024-09-15T15:48:27.895+02:00  INFO 10752 --- [ELKStack-Logging] [http-nio-8080-exec-6] c.g.E.Logging.Service.EmployeeService    : Fetching employee with ID: 25
+2024-09-15T15:48:27.988+02:00 ERROR 10752 --- [ELKStack-Logging] [http-nio-8080-exec-6] c.g.E.L.e.GlobalExceptionHandler         : Error: Employee with ID 25 not found
+{"timestamp":"2024-09-15T16:41:10.8063915+02:00","level":"INFO","logger":"c.gtp.ELKStack.Logging.Application","thread":"main","message":"Starting Application using Java 22.0.1 with PID 30088 (C:\\Users\\Amalitech\\Desktop\\My-Stuff\\ELKStack-Logging\\target\\classes started by Amalitech in C:\\Users\\Amalitech\\Desktop\\My-Stuff\\ELKStack-Logging)"}
+{"timestamp":"2024-09-15T16:41:10.8143914+02:00","level":"INFO","logger":"c.gtp.ELKStack.Logging.Application","thread":"main","message":"No active profile set, falling back to 1 default profile: \"default\""}
+{"timestamp":"2024-09-15T16:41:11.9248922+02:00","level":"INFO","logger":"o.s.b.w.e.tomcat.TomcatWebServer","thread":"main","message":"Tomcat initialized with port 8080 (http)"}
+{"timestamp":"2024-09-15T16:41:11.9440828+02:00","level":"INFO","logger":"o.a.coyote.http11.Http11NioProtocol","thread":"main","message":"Initializing ProtocolHandler [\"http-nio-8080\"]"}
+{"timestamp":"2024-09-15T16:41:11.9470671+02:00","level":"INFO","logger":"o.a.catalina.core.StandardService","thread":"main","message":"Starting service [Tomcat]"}
+{"timestamp":"2024-09-15T16:41:11.9470671+02:00","level":"INFO","logger":"o.a.catalina.core.StandardEngine","thread":"main","message":"Starting Servlet engine: [Apache Tomcat/10.1.28]"}
+{"timestamp":"2024-09-15T16:41:12.2209223+02:00","level":"INFO","logger":"o.a.c.c.C.[Tomcat].[localhost].[/]","thread":"main","message":"Initializing Spring embedded WebApplicationContext"}
+{"timestamp":"2024-09-15T16:41:12.2219204+02:00","level":"INFO","logger":"o.s.b.w.s.c.ServletWebServerApplicationContext","thread":"main","message":"Root WebApplicationContext: initialization completed in 1348 ms"}
+{"timestamp":"2024-09-15T16:41:12.6509653+02:00","level":"INFO","logger":"o.a.coyote.http11.Http11NioProtocol","thread":"main","message":"Starting ProtocolHandler [\"http-nio-8080\"]"}
+{"timestamp":"2024-09-15T16:41:12.769354+02:00","level":"INFO","logger":"o.s.b.w.e.tomcat.TomcatWebServer","thread":"main","message":"Tomcat started on port 8080 (http) with context path '/'"}
+{"timestamp":"2024-09-15T16:41:12.7753344+02:00","level":"INFO","logger":"c.gtp.ELKStack.Logging.Application","thread":"main","message":"Started Application in 2.917 seconds (process running for 3.929)"}
+{"timestamp":"2024-09-15T16:42:01.3853226+02:00","level":"INFO","logger":"o.a.c.c.C.[Tomcat].[localhost].[/]","thread":"http-nio-8080-exec-1","message":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}
+{"timestamp":"2024-09-15T16:42:01.3853226+02:00","level":"INFO","logger":"o.s.web.servlet.DispatcherServlet","thread":"http-nio-8080-exec-1","message":"Initializing Servlet 'dispatcherServlet'"}
+{"timestamp":"2024-09-15T16:42:01.3863301+02:00","level":"INFO","logger":"o.s.web.servlet.DispatcherServlet","thread":"http-nio-8080-exec-1","message":"Completed initialization in 0 ms"}
+{"timestamp":"2024-09-15T16:42:01.4414088+02:00","level":"INFO","logger":"c.g.E.L.C.EmployeeController","thread":"http-nio-8080-exec-1","message":"GET request received for employee with ID: 2"}
+{"timestamp":"2024-09-15T16:42:01.442407+02:00","level":"INFO","logger":"c.g.E.L.Service.EmployeeService","thread":"http-nio-8080-exec-1","message":"Fetching employee with ID: 2"}
+{"timestamp":"2024-09-15T16:42:40.5350341+02:00","level":"INFO","logger":"c.g.E.L.C.EmployeeController","thread":"http-nio-8080-exec-3","message":"GET request received for employee with ID: 25"}
+{"timestamp":"2024-09-15T16:42:40.5360344+02:00","level":"INFO","logger":"c.g.E.L.Service.EmployeeService","thread":"http-nio-8080-exec-3","message":"Fetching employee with ID: 25"}
+{"timestamp":"2024-09-15T16:42:40.5380894+02:00","level":"ERROR","logger":"c.g.E.L.e.GlobalExceptionHandler","thread":"http-nio-8080-exec-3","message":"Error: Employee with ID 25 not found"}
+{"timestamp":"2024-09-15T16:47:44.5186388+02:00","level":"INFO","logger":"c.g.E.L.C.EmployeeController","thread":"http-nio-8080-exec-6","message":"GET request received for all employees"}
+{"timestamp":"2024-09-15T16:47:44.5900116+02:00","level":"INFO","logger":"c.g.E.L.Service.EmployeeService","thread":"http-nio-8080-exec-6","message":"Fetching all employees"}
+{"timestamp":"2024-09-15T16:48:22.1860706+02:00","level":"INFO","logger":"c.g.E.L.C.EmployeeController","thread":"http-nio-8080-exec-7","message":"GET request received for employee with ID: 3"}
+{"timestamp":"2024-09-15T16:48:22.1911726+02:00","level":"INFO","logger":"c.g.E.L.Service.EmployeeService","thread":"http-nio-8080-exec-7","message":"Fetching employee with ID: 3"}
+{"timestamp":"2024-09-15T16:48:43.1144025+02:00","level":"INFO","logger":"c.g.E.L.C.EmployeeController","thread":"http-nio-8080-exec-8","message":"GET request received for employee with ID: 32"}
+{"timestamp":"2024-09-15T16:48:43.1144025+02:00","level":"INFO","logger":"c.g.E.L.Service.EmployeeService","thread":"http-nio-8080-exec-8","message":"Fetching employee with ID: 32"}
+{"timestamp":"2024-09-15T16:48:43.1778021+02:00","level":"ERROR","logger":"c.g.E.L.e.GlobalExceptionHandler","thread":"http-nio-8080-exec-8","message":"Error: Employee with ID 32 not found"}
